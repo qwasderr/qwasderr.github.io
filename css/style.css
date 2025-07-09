@@ -1,30 +1,256 @@
-body {
-  font-family: sans-serif;
+html, body {
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
   color: #222;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   background: #333;
   color: white;
-  padding: 1rem;
+  padding: 1rem 1rem;
+}
+
+nav {
+  margin-top: 0rem;
 }
 
 nav a {
   color: white;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 main {
+  flex: 1;
   padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 footer {
+  background: #eaeaea;
   text-align: center;
   padding: 1rem;
-  background: #eee;
-  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+
+
+.projects-container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.intro-text.subtle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project-card {
+  padding: 1.2rem 1.5rem;
+  border-left: 4px solid #3498db;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  background-color: #f0f8ff;
+  box-shadow: 0 6px 14px rgba(52, 152, 219, 0.15);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.project-card p {
+  margin: 0.5rem 0 1rem;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.project-card ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.project-card li strong {
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+.blog-container {
+  max-width: 750px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.intro-text.subtle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.blog-post-preview {
+  padding: 1rem 1.2rem;
+  border-left: 3px solid #3498db;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.blog-post-preview:hover {
+  background-color: #f0f8ff;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.15);
+}
+
+.blog-post-preview a {
+  font-size: 1rem;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.blog-post-preview a:hover {
+  text-decoration: underline;
+}
+
+.blog-post-preview time {
+  display: block;
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 0.2rem;
+}
+
+
+
+.hero-section {
+  background-color: #f5f7fa;
+  padding: 3rem 1.5rem 2rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: #222;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #555;
+  margin: 0;
+}
+
+.info-section {
+  padding: 1rem 1.5rem 3rem;
+  max-width: 700px;
+  margin: 0 auto;
+  flex-grow: 1;
+}
+
+.info-container p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.grid-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.highlight-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem 1.2rem;
+  box-shadow: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.highlight-card:hover {
+  border-color: #007acc;
+  box-shadow: 0 2px 8px rgba(0, 122, 204, 0.15);
+}
+
+.highlight-card h3 {
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  color: #222;
+}
+
+.highlight-card p {
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.call-to-action {
+  margin-top: 3rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #007acc;
+  text-align: center;
+}
+
+.call-to-action a {
+  color: #007acc;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.call-to-action a:hover {
+  border-bottom-color: #007acc;
 }

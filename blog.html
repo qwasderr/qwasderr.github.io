@@ -1,7 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 <body>
-<h1>Blog Page</h1>
-<p>Initial page</p>
+  <div data-include="header.html"></div>
+
+  <main class="blog-container">
+    <p class="intro-text subtle">Thoughts, ideas, and notes on things I’ve built or explored.</p>
+
+    <div class="blog-list">
+      <article class="blog-post-preview">
+        <a href="blogpost.html?post=posts/2025-07-09-first-post.md">
+         <strong>Test Post</strong>
+        </a>
+        <time datetime="2025-07-09">Jul 9, 2025</time>
+      </article>
+    </div>
+  </main>
+
+  <div data-include="footer.html"></div>
+  <script src="js/include.js"></script>
 </body>
 </html>

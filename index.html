@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Initial page</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Hello</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="blog.html">Blog</a>
-    </nav>
-  </header>
-  <main>
-    <h2>Welcome to my personal portfolio</h2>
-    <p>Here you'll find my projects, scientific work, and blog posts.</p>
+  <div data-include="header.html"></div>
+
+  <main class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Hi, I'm Max Markov</h1>
+      <p class="hero-subtitle">Developer, researcher, and builder of real-world systems.</p>
+    </div>
   </main>
-  <footer>
-    <p>© 2025 Qwasderr</p>
-  </footer>
+
+  <section class="info-section">
+    <div class="info-container">
+      <p>This site is where I share personal and academic projects, write about things I’ve learned, and document ideas I’m exploring.</p>
+
+      <div class="grid-highlights">
+        <div class="highlight-card">
+          <h3>Web Development</h3>
+          <p>Experienced in building full-stack applications, APIs, and data-driven interfaces.</p>
+        </div>
+        <div class="highlight-card">
+          <h3>Mathematics & Research</h3>
+          <p>Passionate about mathematical modeling, competitive programming, ...</p>
+        </div>
+        <div class="highlight-card">
+          <h3>Real-World Tools</h3>
+          <p>Focused on practical systems that solve problems and scale with users' needs.</p>
+        </div>
+      </div>
+
+      <p class="call-to-action">
+        → <a href="projects.html">See my projects</a> or browse the <a href="blog.html">blog</a>.
+      </p>
+    </div>
+  </section>
+
+  <div data-include="footer.html"></div>
+  <script src="js/include.js"></script>
 </body>
 </html>
