@@ -2,20 +2,111 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <title>About Me</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <div data-include="header.html"></div>
 
-  <main>
-    <h2>About Me</h2>
-    <p>To be continued</p>
+  <main class="about-container">
+    <div class="about-hero">
+      <img src="images/profile.jpg" alt="Photo of Max" class="profile-photo" />
+      <div class="about-intro">
+        <h1 class="hero-title">Welcome! I’m Max - a software developer</h1>
+        <p class="intro-text about">
+          Passionate about math and tech that improves lives.
+        </p>
+      </div>
+    </div>
+
+    <section class="about-section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Taras Shevchenko National University of Kyiv</strong> - MSc in Mathematical Methods of Artificial Intelligence (2025-Present)</li>
+        <li><strong>Taras Shevchenko National University of Kyiv</strong> - BSc in Computer Science with honours (2021-2025)</li>
+        <li><strong>Vinnytsia Physics and Mathematics Lyceum No. 17</strong> - Certificate of Complete General Secondary Education with honours (2010-2021)</li>
+      </ul>
+    </section>
+
+    <section class="about-section">
+      <h2>Completed Courses</h2>
+      <ul>
+        <li><a href="https://courses.edx.org/certificates/e364c5d22b6a489dbb66e60be11a04e6">Object Oriented Implementation Using C++ - IBM</a></li>
+        <li><a href="https://courses.edx.org/certificates/3cfe4cf5ef0149529f101af3e2ceb763">Data Structures & Algorithms Using C++ - IBM</a></li>
+        <li><a href="https://courses.edx.org/certificates/acbd911e28f14681b4279dea392bb48f">Visualizing Data with Python - IBM</a></li>
+        <li><a href="https://www.coursera.org/account/accomplishments/certificate/JB5LZEN2GRXA">SQL for Data Science -  University of California, Davis</a></li>
+        <li><a href="https://www.coursera.org/account/accomplishments/verify/5345ZAEBNYCP">Linux System Programming and Introduction to Buildroot - University of Colorado Boulder</a></li>
+        <li><a href="https://www.credly.com/badges/7d4f0979-2c01-4098-a651-83b370433c38/linked_in_profile">Introduction to Packet Tracer - Cisco</a></li>
+        <li><a href="https://strum.education/certificate/playground/652d14740ea8efd7449220df?userId=66d1ce2db0c0ea0db0d5a093">Creation and Development of IT Products - Genesis Tech</a></li>
+        <li><a href="https://strum.education/certificate/playground/65e0a883dd4847b588296c3b?userId=66d1ce2db0c0ea0db0d5a093">Management in product-based IT - Genesis Tech</a></li>
+        <li><a href="https://strum.education/certificate/playground/65a1597fb45708c7bf994964?userId=66d1ce2db0c0ea0db0d5a093">Marketing for IT Products - Genesis Tech</a></li>
+        <li><a href="https://coursera.org/verify/PLLFZ7755ATG">Assets, Threats, and Vulnerabilities - Google</a></li>
+        <li><a href="https://coursera.org/verify/WQ5JUAE2EDZY">Automate Cybersecurity Tasks with Python - Google</a></li>
+        <li><a href="https://coursera.org/verify/46Q2DUFRD9SA">Connect and Protect: Networks and Network Security - Google</a></li>
+        <li><a href="https://coursera.org/verify/GZ2677E3ZUQ6">Foundations of Cybersecurity - Google</a></li>
+        <li><a href="https://coursera.org/verify/4G6TV4W6U5XP">Play It Safe: Manage Security Risks - Google</a></li>
+        <li><a href="https://coursera.org/verify/QB32VCGGDR9M">Put It to Work: Prepare for Cybersecurity Jobs - Google</a></li>
+        <li><a href="https://coursera.org/verify/FSCLANM2HDUF">Sound the Alarm: Detection and Response - Google</a></li>
+        <li><a href="https://coursera.org/verify/5KUS9BVJQ6KQ">Tools of the Trade: Linux and SQL - Google</a></li>
+      </ul>
+    </section>
+
+  <section class="about-section">
+  <h2>Skills & Technologies</h2>
+
+  <div class="skills-category">
+    <h3>Programming Languages</h3>
+    <p>C#, C/C++, Python, SQL</p>
+  </div>
+
+  <div class="skills-category">
+    <h3>Frameworks & Libraries</h3>
+    <p>ASP.NET Core, EF Core, OpenMP</p>
+  </div>
+
+  <div class="skills-category">
+    <h3>Tools & Platforms</h3>
+    <p>Git, Docker, Swagger, Postman, PowerBI, MS SQL Server, PostgreSQL, Regex</p>
+  </div>
+
+  <div class="skills-category">
+    <h3>Data Science & ML</h3>
+   <p>Regression, Classification, Clustering, Dimensionality Reduction, Association Rule Mining</p>
+
+  </div>
+
+  <div class="skills-category">
+    <h3>Explored / Previous Experience</h3>
+    <p>Formal Grammars, Lex/YACC, Prolog, Haskell, MongoDB, MPI, Computational Geometry, Cryptography</p>
+  </div>
+</section>
+
+
+    <section class="about-section">
+      <h2>Languages I Speak</h2>
+      <ul>
+        <li>Ukrainian - native</li>
+        <li>English - C1</li>
+      </ul>
+    </section>
+
+  <section class="about-section">
+  <h2>Hobbies & Interests</h2>
+  <ul>
+    <li>Cycling, weightlifting, refereeing, listening to music</li>
+    <li>Solving random problems</li>
+    <li>Reading tech books (and sometimes non-tech :) )</li>
+  </ul>
+</section>
+
+
+    <div class="call-to-action">
+      <a href="contacts.html">Let’s get in touch</a>
+    </div>
   </main>
 
   <div data-include="footer.html"></div>
-
   <script src="js/include.js"></script>
 </body>
 </html>
