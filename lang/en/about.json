@@ -1,0 +1,31 @@
+{
+    "education": [
+        "Taras Shevchenko National University of Kyiv - MSc in Mathematical Methods of Artificial Intelligence (2025–Present, academic leave)",
+        "Taras Shevchenko National University of Kyiv - BSc in Computer Science with honours (2021-2025)",
+        "Vinnytsia Physics and Mathematics Lyceum No.17 - Certificate with honours (2010-2021)"
+    ],
+    "languages_list": [
+        "Ukrainian - native",
+        "English - C1",
+        "German - B1"
+    ],
+    "hobbies_list": [
+        "Cycling, weightlifting, refereeing, listening to music",
+        "Solving random problems",
+        "Reading tech books (and sometimes non-tech :) )"
+    ],
+    "volunteering": [
+        {
+            "title": "Jury Member, Mathematics Olympiad",
+            "description": "Department of Education and Science, Kyiv Regional State Administration (Sep 2021 – Feb 2026)"
+        },
+        {
+            "title": "Guest Lecturer",
+            "description": "Vinnytsia Physics and Mathematics Lyceum №17",
+            "events": [
+                "Aug 2025: Delivered \"Introduction to AI and Machine Learning\" for 60 STEM Olympiad winners",
+                "Aug 2023 & Aug 2024: Lectures on Mathematical Logic and Boolean Algebra for STEM Olympiad students"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+[
+    {
+        "id": "PetCare_App",
+        "title": {
+            "en": "PetCare App",
+            "de": "PetCare App"
+        },
+        "description": {
+            "en": "A mobile application designed to help pet owners manage their animals’ information with ease. The app offers features such as pet profile creation, medical history tracking, and reminders for vaccinations and vet visits, all through a user-friendly and intuitive interface focused on pet care.",
+            "de": "Eine mobile Anwendung, die Tierbesitzern dabei hilft, die Informationen ihrer Haustiere einfach zu verwalten. Die App bietet Funktionen wie die Erstellung von Tierprofilen, die Verwaltung medizinischer Daten sowie Erinnerungen an Impfungen und Tierarztbesuche. Alle Funktionen sind über eine benutzerfreundliche und intuitive Oberfläche verfügbar, die speziell auf die Tierpflege ausgerichtet ist."
+        },
+        "technologies": {
+            "en": "ASP.NET Core Web API, ASP.NET Core Identity, EF Core, PostgreSQL, JWT, Swagger, UML, xUnit",
+            "de": "ASP.NET Core Web API, ASP.NET Core Identity, EF Core, PostgreSQL, JWT, Swagger, UML, xUnit"
+        },
+        "github": "https://github.com/KNU-PET-CARE/PetCareApp-Mobile-BE"
+    },
+    {
+        "id": "US_Roadworks_Knowledge_Discovery",
+        "title": {
+            "en": "US Roadworks Knowledge Discovery",
+            "de": "Wissensentdeckung über Straßenbauprojekte in den USA"
+        },
+        "description": {
+            "en": "A data analysis and machine learning project focused on road construction and closure events across the U.S. The system provides tools for visualizing and analyzing a large-scale dataset (6.2M+ records) through interactive dashboards with KPIs and charts. It also includes models for predicting event severity, duration, and distance using modern machine learning techniques, and discovers association rules between key parameters to support process optimization and informed decision-making.",
+            "de": "Ein Datenanalyse- und Machine-Learning-Projekt, das sich auf Straßenbau- und Sperrereignisse in den gesamten USA konzentriert. Das System bietet Werkzeuge zur Visualisierung und Analyse eines umfangreichen Datensatzes (über 6,2 Millionen Datensätze) mithilfe interaktiver Dashboards mit KPIs und Diagrammen. Darüber hinaus umfasst es Modelle zur Vorhersage der Ereignisschwere, Dauer und Entfernung unter Verwendung moderner Machine-Learning-Techniken und identifiziert Assoziationsregeln zwischen wichtigen Parametern, um die Prozessoptimierung und fundierte Entscheidungsfindung zu unterstützen."
+        },
+        "technologies": {
+            "en": "Python, Power BI, Regression (Linear, Logistic), XGBoost, Apriori, PCA, K-Means",
+            "de": "Python, Power BI, Regressionsanalyse (linear, logistisch), XGBoost, Apriori, PCA, K-Means"
+        },
+        "github": "https://github.com/qwasderr/US_Roadworks_Knowledge_Discovery"
+    },
+    {
+        "id": "Referee_Management_System",
+        "title": {
+            "en": "Referee Management System",
+            "de": "Schiedsrichterverwaltungssystem"
+        },
+        "description": {
+            "en": "A web application designed to streamline the management of referees and sports competitions. The system provides tools for organizing tournaments, tracking matches, and managing referees' activity and certification status.",
+            "de": "Eine Webanwendung, die die Verwaltung von Schiedsrichtern und Sportwettbewerben vereinfacht. Das System bietet Werkzeuge zur Organisation von Turnieren, zur Erfassung und Verwaltung von Spielen sowie zur Verwaltung der Aktivitäten und des Zertifizierungsstatus von Schiedsrichtern."
+        },
+        "technologies": {
+            "en": "ASP.NET Core MVC, ASP.NET Core Identity, EF Core, MS SQL Server, UML, xUnit",
+            "de": "ASP.NET Core MVC, ASP.NET Core Identity, EF Core, MS SQL Server, UML, xUnit"
+        },
+        "github": "https://github.com/qwasderr/Referee-Management-System"
+    },
+    {
+        "id": "Strongman_App",
+        "title": {
+            "en": "Strongman App",
+            "de": "Strongman App"
+        },
+        "description": {
+            "en": "A web application for managing strongman sports events and related entities. Supports administration of competitions, exercises, athletes, and news, while allowing users to view results, athlete profiles, and submit or withdraw competition applications.",
+            "de": "Eine Webanwendung zur Verwaltung von Strongman-Sportveranstaltungen und zugehörigen Entitäten. Sie unterstützt die Verwaltung von Wettbewerben, Übungen, Athleten und Nachrichten und ermöglicht Benutzern, Ergebnisse und Athletenprofile einzusehen sowie Bewerbungen für Wettbewerbe einzureichen oder zurückzuziehen."
+        },
+        "technologies": {
+            "en": "ASP.NET Core MVC, ASP.NET Core Identity, EF Core, MS SQL Server, UML",
+            "de": "ASP.NET Core MVC, ASP.NET Core Identity, EF Core, MS SQL Server, UML"
+        },
+        "github": "https://github.com/qwasderr/StrongmanApp"
+    }
+]

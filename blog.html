@@ -2,27 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Blog</title>
+  <title data-i18n="blog_title">Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
   <div data-include="header.html"></div>
 
   <main class="blog-container">
-    <p class="intro-text subtle">Thoughts, ideas, and notes on things I’ve built or explored.</p>
 
-    <div class="blog-list">
-      <article class="blog-post-preview">
-        <a href="blogpost.html?post=posts/US_Roadworks_Knowledge_Discovery.md">
-         <strong>US Roadworks Knowledge Discovery</strong>
-        </a>
-        <time datetime="2025-07-09">Jul 9, 2025</time>
-      </article>
-    </div>
+    <p class="intro-text subtle" data-i18n="blog_intro">
+      Thoughts, ideas, and notes on things I’ve built or explored.
+    </p>
+
+    <div class="blog-list" id="blog-list"></div>
+
   </main>
 
   <div data-include="footer.html"></div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/blog.js"></script>
   <script src="js/include.js"></script>
 </body>
 </html>

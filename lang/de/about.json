@@ -1,0 +1,31 @@
+{
+    "education": [
+        "Nationale Taras-Schewtschenko-Universität Kyjiw - MSc in Mathematischen Methoden der Künstlichen Intelligenz (2025–heute, derzeit beurlaubt)",
+        "Nationale Taras-Schewtschenko-Universität Kyjiw - BSc Informatik mit Auszeichnung (2021 - 2025)",
+        "Physikalisch-Mathematisches Lyzeum Nr. 17 in Winnyzja - Abschluss der allgemeinen Sekundarschulbildung mit Auszeichnung (2010 - 2021)"
+    ],
+    "languages_list": [
+        "Ukrainisch - Muttersprache",
+        "Englisch - C1",
+        "Deutsch - B1"
+    ],
+    "hobbies_list": [
+        "Radfahren, Krafttraining, Schiedsrichtertätigkeit, Musik hören",
+        "Lösen verschiedener Probleme",
+        "Lesen von technischen Büchern (und gelegentlich auch anderer Literatur :) )"
+    ],
+    "volunteering": [
+        {
+            "title": "Jury-Mitglied bei der Mathematik-Olympiade",
+            "description": "Abteilung für Bildung und Wissenschaft der staatlichen Regionalverwaltung Kyjiw (Sep 2021 – Feb 2026)"
+        },
+        {
+            "title": "Gastdozent",
+            "description": "Physikalisch-Mathematisches Lyzeum Nr. 17 in Winnyzja",
+            "events": [
+                "Aug 2025: Vortrag \"Einführung in KI und maschinelles Lernen\" für 60 Gewinner von MINT-Olympiaden",
+                "Aug 2023 & Aug 2024: Vorträge über mathematische Logik und Boolesche Algebra für MINT-Olympiadenschüler"
+            ]
+        }
+    ]
+}

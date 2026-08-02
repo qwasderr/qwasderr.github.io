@@ -1,0 +1,27 @@
+[
+    {
+        "id": "US_Roadworks_Knowledge_Discovery",
+        "date": "2025-07-09",
+        "title": {
+            "en": "US Roadworks Knowledge Discovery",
+            "de": "Wissensentdeckung über Straßenbauprojekte in den USA"
+        },
+        "file": {
+            "en": "posts/US_Roadworks_Knowledge_Discovery/en.md",
+            "de": "posts/US_Roadworks_Knowledge_Discovery/de.md"
+        }
+    },
+
+    {
+        "id": "PetCare App",
+        "date": "2026-08-02",
+        "title": {
+            "en": "PetCare App",
+            "de": "PetCare App"
+        },
+        "file": {
+            "en": "posts/PetCare_App/en.md",
+            "de": "posts/PetCare_App/de.md"
+        }
+    }
+]
